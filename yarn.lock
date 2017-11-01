@@ -4409,6 +4409,14 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
+npm-run-parallel@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/npm-run-parallel/-/npm-run-parallel-0.6.0.tgz#4866204d5cc7e7822c4127686890267da1498328"
+  dependencies:
+    meow "^3.7.0"
+    rx "^4.0.8"
+    rx-node "^1.0.1"
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -5633,6 +5641,16 @@ rx-lite-aggregates@^4.0.8:
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
+
+rx-node@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/rx-node/-/rx-node-1.0.2.tgz#151240725a79e857360ab06cc626799965e094de"
+  dependencies:
+    rx "*"
+
+rx@*, rx@^4.0.8:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"

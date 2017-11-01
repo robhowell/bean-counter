@@ -58,7 +58,7 @@ const getLabelsAndObjectArray = (statementArray) => {
       (acc, item, itemIndex) => {
         const newItem = [];
 
-        if (typeof item === 'string' && item !== '') {
+        if (typeof item !== 'string' || item !== '') {
           newItem[namesArray[itemIndex]] = item;
         }
 
