@@ -8,13 +8,13 @@
   "author": "Rob Howell <rob@robhowell.com>",
   "license": "MIT",
   "dependencies": {
-    "csv": "^2.0.0",
+    "csv": "^3.1.0",
     "find": "^0.2.7",
-    "json-server": "^0.12.0",
+    "json-server": "^0.14.0",
     "npm-run-parallel": "^0.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.16"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "npm-run-parallel api start-client",
